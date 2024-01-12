@@ -1,0 +1,86 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    background-color: var(--yellow);
+}
+
+.card {
+    max-width: 325px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -190.5px;
+    margin-top: -270px;
+    padding: 25px;
+    box-shadow: 10px 10px;
+}
+
+.post-illustration {
+    max-width: 325px;
+    border-radius: 17.7px;
+}
+
+.sub {
+    font-size: 14px;
+}
+
+.topic-tags {
+    margin-top: 10px;
+}
+
+.tag {
+    padding-block: 5px;
+    padding-inline: 15px;
+    background-color: var(--yellow);
+    width: fit-content;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.post-title {
+    margin-block: 5px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.post-blurb {
+    color: var(--grey);
+    line-height: 1.5;
+}
+
+.author {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.author-name {
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    width: 100dvw;
+    position: absolute;
+    bottom: 20px;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
