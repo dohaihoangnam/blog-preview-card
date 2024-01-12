@@ -58,7 +58,15 @@ body {
     font-weight: 800;
 }
 
-.post-title:active {
+.post-title a {
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.post-title a:active {
     color: var(--yellow);
 }
 
